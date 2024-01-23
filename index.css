@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* position:relative; */
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    z-index: 10;
+    background-image: url(./bg.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#page1{
+    min-height: 100vh;
+    width: 100%;
+    color: whitesmoke;
+    backdrop-filter: blur(8px); 
+    padding: 0 2vw;
+}
+
+nav{
+    /* vertical-align: top; */
+    padding: 3vw 4vw;
+    display: flex;
+    width: 100%;
+    font-family: "Varela Round";
+    /* background-color: red; */
+    justify-content: space-between;
+    z-index: 100;
+    position:relative;
+    align-items: center;
+}
+
+#nav2{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 500;
+    background-clip: padding-box;
+}
+
+#nav2 h4{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+#nav2 a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+nav a:hover h4{
+    border: 1px solid aliceblue;
+    border-radius: 50px;
+    transition: all ease 0.4s;
+
+}
+
+#connect-wallet-button{
+    background: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    border-color: rgb(255, 255, 255);
+    /* background-color: rgb(6, 236, 6); */
+    color:aliceblue;
+    box-shadow: none;
+}
+
+#connect-wallet-button:hover{
+    transition: all ease 0.4s;
+    background-color: rgb(127, 200, 18);
+    border-color: rgb(127, 200, 18);
+    color:black;
+    font-size: 19px;
+    /* font-weight:bold; */
+}
+
+#center{
+    width: 100%;
+    display: flex;
+    font-family: "Poppins",sans-serif;
+    padding: 3vw 4vw;
+}
+
+#page1-left{
+    width: 50%;
+    text-align: left;
+}
+
+#page1-bottom{
+    height:20vw;
+    /* background-color: blueviolet; */
+    /* backdrop-filter: blur(8px); */
+    border-radius: 25px;
+    padding: 3vw 0;
+    width: 100%;
+    font-family: "Poppins",sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#info-left{
+    display:flex;
+    width: 60%;
+    text-align:left;
+    justify-content: space-between;
+}
+
+.info{
+   padding: 0 5vw;
+}
+
+#info-right .info h4{
+    font-size: 18px;
+}
+
+#info-right .info h1{
+    font-size: 30px;
+}
+
+#info-right{
+    width: 40%;
+    text-align:right;
+    justify-content: end;
+}
+
+#info-right-top {
+    width: 100%;
+    display: flex;
+    gap:2vw;
+}
+
+#info-right-top h2,#info-right-top h3{
+    text-align: right;
+}
