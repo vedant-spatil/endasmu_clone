@@ -109,6 +109,25 @@ nav a:hover h4{
     text-align: left;
 }
 
+#heading-text h1{
+    width: 25vw;
+    font-size: 1.8vw;
+    line-height: 2vw;
+
+}
+
+#get-started-button{
+    background-color: rgb(127, 200, 18);
+    font-family: "Varela Round";
+    border-radius: 50px;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
 #page1-bottom{
     height:20vw;
     /* background-color: blueviolet; */
