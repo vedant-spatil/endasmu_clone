@@ -132,6 +132,13 @@ nav a:hover h4{
     font-family: "Varela Round";
 }
 
+#learn-more h4 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1vw;
+    transition: 0.3s;
+}
+
 #page1-bottom{
     height:20vw;
     /* background-color: blueviolet; */
