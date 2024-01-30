@@ -21,3 +21,8 @@ a.addEventListener("mouseout",function(){
     a.style.color="aliceblue"
     a.style.fontSize="1vw"
 })
+
+// let and const as Dynamic memory Allocation Data Types
+//Arrays ---> let array=[1,2,3]
+//array.push(5)
+//array.pop()
