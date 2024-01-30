@@ -13,7 +13,7 @@ var a = document.querySelector("#learn-more h4 a")
     a.addEventListener("mouseover",function (){       
     a.textContent="༼ つ ◕_◕ ༽つ"                  
     a.style.color="lightblue"                     
-    a.style.fontSize="1.3vw"
+    a.style.fontSize="1.2vw"
 })
 
 a.addEventListener("mouseout",function(){
