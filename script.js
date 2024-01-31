@@ -4,8 +4,8 @@
 // });
 
 // 4 pillars of DOM
-//1. Selection of Element - document.querySelector() /  document.querySelectorAll()
-//2. Changing HTML        - a.textContent
+//1. Selection of Element - document.getElementById() / document.getElementsByClassName() / document.querySelector() /  document.querySelectorAll()
+//2. Changing HTML        - a.innerHTML / a.innerText / a.textContent
 //3. Changing CSS         - a.style.fontSize
 //4. Event Listner        - a.addEventListener("mouseout",function(){})
 
