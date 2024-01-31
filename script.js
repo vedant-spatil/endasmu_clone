@@ -4,10 +4,10 @@
 // });
 
 // 4 pillars of DOM
-//1. Selection of Element 
-//2. Changing HTML
-//3. Changing CSS
-//4. Event Listner
+//1. Selection of Element - document.querySelector() /  document.querySelectorAll()
+//2. Changing HTML        - a.textContent
+//3. Changing CSS         - a.style.fontSize
+//4. Event Listner        - a.addEventListener("mouseout",function(){})
 
 var a = document.querySelector("#learn-more h4 a")  
     a.addEventListener("mouseover",function (){       
