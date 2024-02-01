@@ -107,6 +107,7 @@ nav a:hover h4{
 #page1-left{
     width: 50%;
     text-align: left;
+    font-size: 5vh;
 }
 
 #heading-text h1{
@@ -116,20 +117,27 @@ nav a:hover h4{
 
 }
 
+#subHeading-text h5{
+    font-size: 20px;
+    font-family:"Varela Round";
+}
+
+#more{
+    display: flex;
+    gap: 2vw;
+    align-items:center;
+}
+
 #get-started-button{
     background-color: rgb(127, 200, 18);
     font-family: "Varela Round";
     border-radius: 50px;
     color: black;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
     font-size: 18px;
     font-weight: 500;
 
-}
-
-#page1-left{
-    font-family: "Varela Round";
 }
 
 #learn-more h4 a{
@@ -141,15 +149,16 @@ nav a:hover h4{
 
 #page1-bottom{
     height:20vw;
-    /* background-color: blueviolet; */
+   background-color: blueviolet;
     /* backdrop-filter: blur(8px); */
     border-radius: 25px;
     padding: 3vw 0;
-    width: 100%;
+    width: 80%;
     font-family: "Poppins",sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
 }
 
 #info-left{
@@ -157,6 +166,7 @@ nav a:hover h4{
     width: 60%;
     text-align:left;
     justify-content: space-between;
+    background-color: brown;
 }
 
 .info{
@@ -175,12 +185,14 @@ nav a:hover h4{
     width: 40%;
     text-align:right;
     justify-content: space-between;
+    background-color: aqua;
 }
 
 #info-right-top {
     width: 100%;
     gap:2vw;
-    text-align: center;
+    text-align: top;
+    justify-content: center;
     vertical-align: top;
 }
 
@@ -190,9 +202,7 @@ nav a:hover h4{
 
 #info-right-bottom img{
     position: absolute;
-    top: 0;
-    left:30%;
-    height: 75px;
+    height: 50px;
     object-fit: contain;
     aspect-ratio: 1/1;
     background-clip: padding-box;
