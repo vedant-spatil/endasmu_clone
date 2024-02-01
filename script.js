@@ -13,13 +13,13 @@ var a = document.querySelector("#learn-more h4 a")
     a.addEventListener("mouseover",function (){       
     a.textContent="༼ つ ◕_◕ ༽つ"                  
     a.style.color="lightblue"                     
-    a.style.fontSize="1.2vw"
+    a.style.fontSize="25px"
 })
 
 a.addEventListener("mouseout",function(){
     a.textContent="Learn More"
     a.style.color="aliceblue"
-    a.style.fontSize="1vw"
+    a.style.fontSize="18px"
 })
 
 //let and const as Dynamic memory Allocation Data Types
