@@ -26,3 +26,5 @@ a.addEventListener("mouseout",function(){
 //Arrays ---> let array=[1,2,3]
 //array.push(5) / array.unshift(5)
 //array.pop() / array.shift()
+//Template String ---> use ` and use ${element} for each element
+//Eg : list+=`<li>${leads[i]}</li>`
