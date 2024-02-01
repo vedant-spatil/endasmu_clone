@@ -83,18 +83,19 @@ nav a:hover h4{
     font-weight: 500;
     border-radius: 50px;
     border-color: rgb(255, 255, 255);
-    /* background-color: rgb(6, 236, 6); */
     color:aliceblue;
     box-shadow: none;
 }
 
 #connect-wallet-button:hover{
     transition: all ease 0.4s;
-    background-color: rgb(127, 200, 18);
-    border-color: rgb(127, 200, 18);
+    background: linear-gradient(
+        to right,
+        rgb(238, 246, 82),
+        rgb(156, 254, 75));
+    border-color:rgb(242, 249, 105);
     color:black;
     font-size: 19px;
-    /* font-weight:bold; */
 }
 
 #center{
@@ -105,22 +106,22 @@ nav a:hover h4{
 }
 
 #page1-left{
-    width: 50%;
+    width: 55%;
     text-align: left;
     font-size: 5vh;
 }
 
 #heading-text h1{
-    width: 25vw;
     font-size: 1.8vw;
     line-height: 2vw;
 }
 
 #subHeading-text h5{
+    width:70%;
     font-size: 20px;
-    font-family:"Varela Round";
-    margin-top: 50px;
-    margin-bottom: 50px;
+    font-family: "Raleway",sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #more{
@@ -130,15 +131,18 @@ nav a:hover h4{
 }
 
 #get-started-button{
-    background-color: rgb(127, 200, 18);
+    background: linear-gradient(
+        to right,
+        rgb(242, 249, 105),
+        rgb(156, 254, 75));
     border-radius: 50px;
     color: black;
     border: none;
-    padding: 1px 30px;
+    padding: 10px 35px;
     font-size: 18px;
     font-weight: 900;
     font-family: "Raleway",sans-serif;
-
+    margin: 0.5vw;
 }
 
 #learn-more{
