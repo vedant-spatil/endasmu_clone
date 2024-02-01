@@ -100,7 +100,7 @@ nav a:hover h4{
 #center{
     width: 100%;
     display: flex;
-    font-family: "Poppins",sans-serif;
+    font-family: "Raleway",sans-serif;
     padding: 3vw 4vw;
 }
 
@@ -114,12 +114,13 @@ nav a:hover h4{
     width: 25vw;
     font-size: 1.8vw;
     line-height: 2vw;
-
 }
 
 #subHeading-text h5{
     font-size: 20px;
     font-family:"Varela Round";
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #more{
@@ -133,9 +134,10 @@ nav a:hover h4{
     border-radius: 50px;
     color: black;
     border: none;
-    padding: 10px 20px;
+    padding: 1px 30px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 900;
+    font-family: "Raleway",sans-serif;
 
 }
 
@@ -149,6 +151,7 @@ nav a:hover h4{
     color: aliceblue;
     font-size: 18px;
     transition: 0.3s;
+    font-family: "Raleway",sans-serif;
 }
 
 #page1-bottom{
@@ -157,12 +160,14 @@ nav a:hover h4{
     /* backdrop-filter: blur(8px); */
     border-radius: 25px;
     padding: 3vw 0;
-    width: 80%;
-    font-family: "Poppins",sans-serif;
+    width: 93%;
+    font-family: "Raleway",sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #info-left{
