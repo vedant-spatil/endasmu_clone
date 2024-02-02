@@ -22,9 +22,15 @@ a.addEventListener("mouseout",function(){
     a.style.fontSize="18px"
 })
 
-//let and const as Dynamic memory Allocation Data Types
-//Arrays ---> let array=[1,2,3]
-//array.push(5) / array.unshift(5)
-//array.pop() / array.shift()
-//Template String ---> use ` and use ${element} for each element
-//Eg : list+=`<li>${leads[i]}</li>`
+// Arrays ---> let array=[1,2,3]
+// array.push(5) / array.unshift(5)
+// array.pop() / array.shift()
+
+// Template String ---> use ` and use ${element} for each element
+// Eg : list+=`<li>${leads[i]}</li>`
+
+// Objects in Js :-
+// const person = {
+//     firstName: "John",
+//     lastName: "Doe"
+//   };
