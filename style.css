@@ -158,7 +158,7 @@ nav a:hover h4{
 }
 
 #page1-bottom{
-    height:20vw;
+    height:19vw;
    background-color: blueviolet;
     /* backdrop-filter: blur(8px); */
     border-radius: 25px;
@@ -200,13 +200,27 @@ nav a:hover h4{
 #info-right-top {
     display:flex;
     width: 100%;
-    gap:2vw;
+    gap:1vw;
     text-align: top;
     justify-content: center;
     vertical-align: top;
+    background-color: chartreuse;
+    padding-top: 30px;
+}
+
+#info-right-top h3{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+#info-right-top h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 2vw;
+    font-weight: 900;
 }
 
 #info-right-bottom{
+    background-color: hotpink;
     position: relative;
 }
 
