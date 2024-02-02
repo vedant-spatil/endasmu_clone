@@ -166,9 +166,6 @@ nav a:hover h4{
     width: 93%;
     font-family: "Raleway",sans-serif;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -176,9 +173,9 @@ nav a:hover h4{
 #info-left{
     display:flex;
     width: 60%;
-    text-align:left;
     justify-content: space-between;
     background-color: brown;
+    align-items: center;
 }
 
 .info{
@@ -195,12 +192,13 @@ nav a:hover h4{
 
 #info-right{
     width: 40%;
-    text-align:right;
+    text-align:center;
     justify-content: space-between;
     background-color: aqua;
 }
 
 #info-right-top {
+    display:flex;
     width: 100%;
     gap:2vw;
     text-align: top;
@@ -223,4 +221,12 @@ nav a:hover h4{
 
 #img2{
     left:35%;
+}
+
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    color: whitesmoke;
+    backdrop-filter: blur(8px); 
+    padding: 0 2vw;
 }
