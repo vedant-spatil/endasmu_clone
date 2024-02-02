@@ -7,6 +7,8 @@
 html,body{
     height:100%;
     width: 100%;
+    scroll-behavior: smooth;
+    scrollbar-width:none;
 }
 
 #main{
@@ -160,6 +162,7 @@ nav a:hover h4{
 #page1-bottom{
     height:19vw;
    background-color: blueviolet;
+   z-index: 100;
     /* backdrop-filter: blur(8px); */
     border-radius: 25px;
     padding: 3vw 0;
@@ -182,12 +185,14 @@ nav a:hover h4{
    padding: 0 5vw;
 }
 
-#info-right .info h4{
+#info-left .info h4{
     font-size: 18px;
 }
 
-#info-right .info h1{
-    font-size: 30px;
+#info-left .info h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 60px;
+    margin-top: 5px;
 }
 
 #info-right{
