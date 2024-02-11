@@ -250,8 +250,34 @@ nav a:hover h4{
 }
 
 #page2{
-    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    height: 45vh;
     width: 100%;
     color: whitesmoke;
     padding: 0 2vw;
+    font-family: "Raleway",sans-serif;
+    margin: 110px 0;
+    padding: 0 2vw;
+    /* margin-top: 110px;
+    margin-bottom: 110px; */
+}
+
+#page2-left{
+    width:50%;
+    align-items: center;
+    background-color: hotpink;
+}
+
+#page2-right{
+    width:50%;
+    background-color:chartreuse;
+    text-align: left;
+}
+
+img{
+    object-fit: contain;
+    aspect-ratio: 1/1;
+    height: 18vh;
+    border-radius: 25px;
 }
