@@ -128,7 +128,7 @@ nav a:hover h4{
     line-height: 2vw;
 }
 
-#subHeading-text h5{
+h5{
     width:70%;
     font-size: 20px;
     font-family: "Raleway",sans-serif;
@@ -194,7 +194,7 @@ nav a:hover h4{
    padding: 0 5vw;
 }
 
-#info-left .info h4{
+h4{
     font-size: 18px;
 }
 
@@ -220,12 +220,12 @@ nav a:hover h4{
     padding-top: 30px;
 }
 
-#info-right-top h3{
+h3{
     font-size: 25px;
     margin-top: 5px;
 }
 
-#info-right-top h2{
+h2{
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 2vw;
     font-weight: 900;
@@ -258,20 +258,18 @@ nav a:hover h4{
     padding: 0 2vw;
     font-family: "Raleway",sans-serif;
     margin: 110px 0;
-    padding: 0 2vw;
-    /* margin-top: 110px;
-    margin-bottom: 110px; */
+    padding: 0 5vw;
 }
 
 #page2-left{
     width:50%;
     align-items: center;
-    background-color: hotpink;
+    /* background-color: hotpink; */
 }
 
 #page2-right{
     width:50%;
-    background-color:chartreuse;
+    /* background-color:chartreuse; */
     text-align: left;
 }
 
@@ -280,4 +278,5 @@ img{
     aspect-ratio: 1/1;
     height: 18vh;
     border-radius: 25px;
+    background-clip: padding-box;
 }
