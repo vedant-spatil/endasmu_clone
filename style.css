@@ -155,6 +155,7 @@ h5{
     font-weight: 900;
     font-family: "Raleway",sans-serif;
     margin: 0.5vw;
+    margin-bottom:0.5vh;
 }
 
 #learn-more{
@@ -279,4 +280,31 @@ img{
     height: 18vh;
     border-radius: 25px;
     background-clip: padding-box;
+}
+
+#page3{
+    min-height: 36vw;
+    width:100%;
+    padding: 0 5.5vw;
+}
+
+#accounts{
+    min-height: 18vw;
+    width:100%;
+    padding: 0 5.5vw;
+    color:aliceblue;
+    font-family: "Raleway",sans-serif;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#page4{
+    min-height: 30vw;
+    width:100%;
+    padding: 0 5.5vw;
+    color:aliceblue;
+    font-family: "Raleway",sans-serif;
+    display: flex;
+    align-content: center;
 }
